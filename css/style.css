@@ -1,0 +1,88 @@
+
+.testbox{
+  border: purple solid 2px;
+}
+.FC {
+  display: flex;
+  flex-direction: column;
+}
+.FR {
+  display: flex;
+  flex-direction: row;
+}
+.GC {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto ;
+}
+.GR {
+  display: grid;
+  grid-template-rows: auto;
+}
+.perimeter{
+  border: blue solid 2px;
+}
+.testbox1{
+  border: blue solid 2px;
+}
+.testbox2{
+  border: orange solid 2px;
+}
+.width100 {
+  width: 100%;
+}
+.Attributes {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 1.5fr 1fr .5fr;
+}
+.Levelups {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+
+}
+.Printout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+.numbers {
+  text-align: center;
+}
+.letters {
+  text-align: right  ;
+}
+.marginauto {
+  margin: auto;
+}
+.AlignmentRaceSection {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  grid-gap: 10px;
+}
+.allowedClass {
+  color: black;
+}
+.prohibitedClass {
+  color: red;
+}
+
+.btn {
+  background: lightgrey;
+  text-align: center;
+}
+
+.lbl {
+  text-align: center ;
+  margin: 2px 0px;
+}
+
+.skillCostProhibited {
+  background: red;
+
+}
+.skillCostOne {
+  background: green;
+
+}
+.skillCostTwo {
+  background: yellow;
+
+}
