@@ -5,10 +5,14 @@
 .FC {
   display: flex;
   flex-direction: column;
+  height: auto;
+  align-items: baseline;
+
 }
 .FR {
   display: flex;
   flex-direction: row;
+
 }
 .GC {
   display: grid;
@@ -45,17 +49,17 @@
 }
 .numbers {
   text-align: center;
+  justify-content: center;
 }
 .letters {
   text-align: right  ;
+  justify-content: center;
 }
 .marginauto {
   margin: auto;
 }
 .AlignmentRaceSection {
-  display: grid;
-  grid-template-columns: 2.5fr 1fr;
-  grid-gap: 10px;
+  display: flex;
 }
 .allowedClass {
   color: black;
@@ -67,6 +71,7 @@
 .btn {
   background: lightgrey;
   text-align: center;
+  align-self: center;
 }
 
 .lbl {
